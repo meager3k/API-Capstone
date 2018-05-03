@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+}
+
+h3 {
+  margin-top: -20px;
+}
+
+.searchBox {
+  text-align: center;
+  display: inline-block;
+  width: 49%;
+  height: 75px;
+}
+
+input {
+  border: 1px solid black;
+  margin-left: 13%;
+}
+
+.filmBox, .wikiBox {
+  margin-top: 15px;
+  text-align: center;
+  display: inline-block;
+  height: 350px;
+  width: 49%;
+  border: 1px solid black;
+}
+
+/* Style the submit button */
+button {
+  float: right;
+  margin-right: 18%;
+  width: 50px;
+  height: 20px;
+  background: #2196F3;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0b7dda;
+}
